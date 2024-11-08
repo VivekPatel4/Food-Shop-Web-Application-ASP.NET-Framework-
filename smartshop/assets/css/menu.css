@@ -1,0 +1,82 @@
+/* General styles for the card */
+.card.borderless-card {
+    border: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.card-block.danger-breadcrumb {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 15px 20px;
+    border-radius: 8px 8px 0 0;
+}
+
+/* Breadcrumb styles */
+.page-header-breadcrumb {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-title {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumb-title li {
+    margin-right: 10px;
+    font-size: 14px;
+    color: #6c757d;
+}
+
+.breadcrumb-title li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s ease;
+}
+
+.breadcrumb-title li a:hover {
+    color: #0056b3;
+}
+
+.breadcrumb-title li i.iconfont {
+    font-size: 18px;
+    color: #007bff;
+    margin-right: 5px;
+}
+
+.breadcrumb-title li:after {
+    content: '>';
+    margin-left: 10px;
+    color: #6c757d;
+}
+
+.breadcrumb-title li:last-child:after {
+    content: '';
+}
+
+/* Additional styles for better UX */
+.card-block {
+    padding: 20px;
+}
+
+.card-block.danger-breadcrumb {
+    background: linear-gradient(90deg, #ff5f6d, #ffc371); /* Gradient background */
+    color: #ffffff;
+}
+
+.breadcrumb-title li a {
+    color: #ffffff;
+}
+
+.breadcrumb-title li i.iconfont {
+    color: #ffffff;
+}
+
+.breadcrumb-title li:after {
+    color: #ffffff;
+}
